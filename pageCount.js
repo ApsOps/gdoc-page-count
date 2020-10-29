@@ -7,4 +7,4 @@ function setPageCountBadge() {
 	favicon.badge(pageCount)
 }
 
-window.onload = setPageCountBadge
+window.onload = setInterval(setPageCountBadge, 1000)
