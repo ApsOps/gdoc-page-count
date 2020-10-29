@@ -4,7 +4,7 @@
   "description": "Chrome extension to show Google Docs' page count in the tab icon",
   "manifest_version": 2,
   "content_scripts": [
-  	{
+    {
      "matches": ["https://docs.google.com/document/*"],
      "run_at": "document_idle",
      "js": ["favico.min.js", "pageCount.js"]

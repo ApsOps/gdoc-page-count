@@ -3,7 +3,7 @@ var favicon=new Favico({
 });
 
 function setPageCountBadge() {
-	pageCount = document.getElementsByClassName('jfk-tooltip-contentId')[0].textContent.split('of')[1].trim()
+	pageCount = document.getElementsByClassName('docs-print-block kix-page-bottom').length
 	favicon.badge(pageCount)
 }
 
