@@ -1,5 +1,7 @@
 var favicon=new Favico({
-    animation:'none'
+    animation:'none',
+    position : 'up',
+    bgColor: '#F34D8B'
 });
 
 function setPageCountBadge() {
